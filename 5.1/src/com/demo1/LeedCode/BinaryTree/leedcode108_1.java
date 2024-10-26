@@ -1,5 +1,7 @@
 package LeedCode.BinaryTree;
 
+import com.demo1.LeedCode.BinaryTree.TreeNode;
+
 /**
  * @Author: whh
  * @Description: 通过控制数组的下标实现，就避免了重新创建数组
