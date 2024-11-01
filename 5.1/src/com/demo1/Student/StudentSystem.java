@@ -9,18 +9,19 @@ public class StudentSystem {
         Vector<Student> stu = new Vector<>();
         loop : while (true) {
             int num = sc.nextInt();
-            switch (num) {
-                case 1 -> {addStudent(stu);}
-                case 2 -> deleteStudent(stu);
-                case 3 -> updateStudent(stu);
-                case 4 -> queryStudent(stu);
-                case 5 -> {
-                    break loop;
-                }
-                default ->{
-                    System.out.println("请重新输入");
-                }
-                }
+            if(num==1){
+                addStudent(stu);
+            }else if(num==2){
+                deleteStudent(stu);
+            }else if(num==3){
+                updateStudent(stu);
+            }else if(num==4){
+                queryStudent(stu);
+            }else if(num==5){
+                break loop;
+            }else{
+                System.out.println("请重新输入");
+            }
             }
         }
     public static void addStudent(Vector<Student> stu){
