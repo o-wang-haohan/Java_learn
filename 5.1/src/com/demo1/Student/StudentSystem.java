@@ -10,7 +10,7 @@ public class StudentSystem {
         loop : while (true) {
             int num = sc.nextInt();
             switch (num) {
-                case 1 -> addStudent(stu);
+                case 1 -> {addStudent(stu);}
                 case 2 -> deleteStudent(stu);
                 case 3 -> updateStudent(stu);
                 case 4 -> queryStudent(stu);

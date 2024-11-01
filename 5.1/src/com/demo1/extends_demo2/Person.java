@@ -45,7 +45,7 @@ public class Person {
         this.age = age;
     }
 
-    public void keepPet(Animal am, String some){
+/*    public void keepPet(Animal am, String some){
         if(am instanceof Dog d){
             System.out.print(am.getAge()+am.getColor());
             d.eat(some);
@@ -54,5 +54,5 @@ public class Person {
             c.eat(some);
         }
 
-    }
+    }*/
 }
